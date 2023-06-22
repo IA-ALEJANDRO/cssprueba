@@ -1,0 +1,114 @@
+body {
+    background-color:rgb(28, 199, 28);
+font-family: sans-serif;
+}
+@media(max-width:1700px){
+header{
+flex-direction: column;
+}
+nav{
+    padding: 100px 0px 0px;
+}
+}
+header{
+background-color: rgb(11, 87, 11);
+display: flex;
+
+padding: 100px;
+align-items: center;
+justify-content: space-between;
+border: 10px double red;
+
+}
+nav a{
+font-size: 30px;
+font-style: italic;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 20px;
+border: 5px solid red;
+background-color: black;
+padding:10px;
+transition: all 1s;
+
+}
+nav a:hover{
+    font-size: 40px;
+    border: 5px solid black;
+    background-color: red;
+}
+header h1::first-line{
+color: black;
+
+
+}
+
+
+
+header h1{
+    margin-left: 20px;
+    font-size: 50px;
+    
+    align-items: center;
+    transition: all 1s;
+}
+header h1:hover{
+    font-size: 40px;
+    text-shadow: 10px 30px 20px red;
+    color: red;
+    font-size: 50px;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.ref1{
+display: flex;
+align-items: center;
+}
+.ref1 img:hover{
+box-shadow: 0px 0px 20px 10px red;
+}
+.IcotT{
+   float: left;
+   height: 200%;
+}
+p {
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+.conten{
+    font-size: 50px;
+    font-family: 'Courier New';
+    font-style: italic;
+    border: 10px solid red;
+    color: pink;
+    text-shadow: 0px 0px 20px orange;
+    width: 50%;
+    
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    
+    
+}
+h2{
+padding-right: 10px;
+
+}
+.Icot {
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 10px double red;
+    height: 300px;
+transition: all 3s;   
+
+   
+}
+
+.Icot:hover {
+height: 10px;
+width:100px;
+
+}

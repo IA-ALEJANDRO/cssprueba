@@ -1,0 +1,245 @@
+/*Llamado de funciones para su modificacion*/
+
+.t1 {
+    color: pink;
+    font-family: Georgia;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.t1 {
+
+    text-shadow: 0px 0px 10px black, 5px 10px 20px red, 0px 30px 40px blue;
+
+
+}
+
+#headerpag {
+    font-family: 'Arial Narrow Bold';
+    background-color: black;
+    font-size: 30px;
+    color: red;
+    display: inline-block;
+    padding: 5px;
+    box-shadow: 20px 50px 20px 10px orange;
+}
+
+#headerpag span {
+    font-style: oblique;
+    background-color: red;
+}
+
+#st20 {
+
+    color: green;
+    font-family: 'Times New Roman';
+    background-color: orange;
+    display: inline-block;
+    padding: 40px;
+    border: 30px dashed orangered;
+    margin-left: 300px red;
+    font-style: oblique;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px 15px orange;
+
+
+}
+
+.st3 {
+    color: brown;
+    text-align: center;
+}
+
+.st3 span {
+    color: black;
+}
+
+/*.st3 span:hover{color: blueviolet;}*/
+.str span :hover {
+    color: blueviolet;
+    text-align: center;
+}
+
+/*especificidad
+La especificidad se rige por un orden jerarquico definito tal que : 
+!IMPORTANT
+ESTILOS DE LINEA
+ID
+CLASS/ PSEUDOCLASES/ATRIBUTOS
+ELEMENTOS
+PSEUDOELEMENTOS000*/
+
+.st21 {
+    color: red;
+}
+
+h2 {
+    color: red;
+}
+
+/*Lucha jerarquica STYLE>ID>CLASS*/
+#st21I {
+    color: blue;
+}
+
+/*Este le gana a todos los demas escenarios*/
+.st21I {
+    color: gray !important;
+    text-align: center;
+}
+
+.form1__input-acti {
+    color: blue;
+}
+
+.form2__h1 {
+    color: red;
+    height: 100px;
+    background-color: greenyellow;
+    font-weight: 10;
+
+}
+
+.form2__h1-p {
+    color: blue;
+    font-family: 'Times New Roman';
+
+
+
+}
+
+.st22 {
+
+    color: red;
+    background-color: black;
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+
+    font-size: 50px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-style: italic;
+
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    border: 20px double red;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+    text-shadow: 0px 0px 30px greenyellow;
+    box-shadow: 0px 0px 20px 20px violet;
+
+
+}
+
+.st22 span {
+    color: rgb(218, 224, 18);
+    background-color: blue;
+    margin-left: 70px;
+    border-color: aquamarine;
+    border: 60px;
+    border-radius: 40px;
+
+}
+
+
+/*PROPIEDADES DE LOS TEXTOS
+font-size:2m            (dimenciones relativas)
+font-family:Georgia     (tipo de topografia)
+line-height::2          ()
+font-weight:900         ()
+font-stretch:normal     ()
+font-variant:small:caps ()
+
+PROPIEDADES DE CAJAS
+*/
+.form2__h2 {
+    color: black;
+    background-color: red;
+    font-family: Impact;
+    font-weight: 100;
+    font-size: 40px;
+    display: inline-block;
+    font-size: 40px;
+    border: 15px solid orange;
+
+}
+
+.form1 {
+
+    height: 90px;
+}
+
+.form2__h3 {
+    font-family: Times;
+    color: red;
+    background-color: black;
+
+    /*padding-left: 200px;
+padding-top: 100px;
+padding-bottom: 100px;
+padding-right: 200px;
+display:inline-block
+*/
+    padding: 100px 270px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 15px solid orange;
+
+}
+
+.form2__h4 {
+    background-color: violet;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-left: 70px;
+    border-radius: 10px;
+
+
+    box-sizing: border-box;
+}
+
+/* AQUI VAMOS A VER TANTO EL BOX SHADOW COMO EL TEXT SHADOW
+
+box-shadow{
+Eje x
+Eje y 
+Difuminado
+Tamano del borde
+Color
+box-shadow: 10px 2px 6px 3px color:red; 
+}
+
+
+text-shadow{
+
+    Eje x
+    Eje y
+    Difuminado
+    Color
+text-shadow: 10px 2px 4px color: blue
+-Para intensificar el efecto podriamos duplicar con el empleo de una , 
+text-shadow: 10px 2px 4px color: blue, 10px 2px 4px color: blue
+}
+
+}*/
+.section2__h1 {
+    color: pink;
+    text-shadow: 0px 0px 20px red;
+
+
+
+}
+
+.section2__p1 {
+
+    background-color: pink;
+    transform: rotate(-15deg);
+
+}

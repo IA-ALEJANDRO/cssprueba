@@ -1,0 +1,272 @@
+
+
+/*POSITION:FIXED*/
+.head1 {
+    color: rgb(244, 156, 171);
+    text-shadow: 10px 30px 20px red;
+    font-style: oblique;
+    font-family: Impact;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+    
+    margin-top:-100px
+    
+    
+}
+/*POSITION:STICKY*/
+.holi{
+    
+    
+    text-shadow: 10px 5px 20px black;
+    height: 50px;
+    text-align: center;
+    position: sticky;
+    top:0px;
+padding: 10px;
+
+
+}
+
+body{
+
+    padding-top: 100px;
+}
+
+article {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+}
+
+
+section {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+/*POSITION:RELATIVE*/
+.sectioncuadro {
+    background-color: red;
+    margin: 100px auto;
+    height: 450px;
+    width: 450px;
+    position: relative;
+    border: 20px double orange;
+
+}
+/*POSITION:ABSOLUTE*/
+.cuadro1 {
+    opacity: .8;
+    background-color: blue;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    border: 20px double black;
+}
+
+.cuadro2 {
+    opacity: .8;
+    background-color: orange;
+    position: absolute;
+
+    border: 20px double black;
+
+}
+
+.cuadro3 {
+    background-color: greenyellow;
+    bottom: -20px;
+    left: -20px;
+    border: 20px double black;
+    opacity: .8;
+    position: absolute;
+}
+
+.cuadro4 {
+    background-color: yellow;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    opacity: .8;
+    border: 20px double black;
+}
+
+.cuadro5 {
+    background-color: aqua;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    opacity: .5;
+
+
+}
+
+
+/*PADRE E HIJO EJERCICIOS*/
+.Padre {
+    width: 350px;
+    height: 300px;
+    background-color: black;
+    margin: 40px;
+}
+
+
+.Hijo {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    display: inline-block;
+    top: -20px;
+    left: -20px;
+    position: relative;
+
+}
+
+
+
+.Hijo2 {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    display: inline-block;
+
+}
+
+
+
+
+
+
+.padre {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+
+}
+
+
+.hijo {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+
+}
+
+
+/*FIN DEL PADRE HIJO EJERCICIOS*/
+
+
+
+
+
+.caja2,
+.caja3 {
+
+    background-color: pink;
+
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 30px 0px red;
+    margin-top: 100px;
+
+    border: 15px outset;
+}
+
+
+
+.caja4,
+.caja1 {
+
+    background-color: blue;
+    border: 30px inset black;
+
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+
+.holi {
+    background-color: red;
+    margin-bottom: 40px;
+    margin-top: 200px;
+}
+
+
+.caja5,
+.caja8 {
+    background-color: blue;
+    border: 30px inset black;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 10px 20px black;
+
+
+}
+
+
+.caja6,
+.caja7 {
+
+    background-color: pink;
+
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 30px 10px red;
+    margin-top: 100px;
+    transform: rotate(45deg);
+    border: 15px outset;
+}
+
+
+
+
+
+.holi1 {
+
+    background-color: green;
+    margin-top: 400px;
+    margin-bottom: 30px;
+}
+
+.caja9,
+.caja12 {
+    background-color: blue;
+    border: 30px inset black;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 10px 20px black;
+
+
+}
+
+
+.caja10,
+.caja11 {
+
+    background-color: pink;
+
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 30px 10px red;
+    margin-top: 100px;
+    transform: rotate(45deg);
+    border: 15px outset;
+
+
+}
+
+
+#pie1 {
+    margin-top: 400px;
+    background-color: pink;
+
+}
